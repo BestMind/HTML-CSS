@@ -2,3 +2,16 @@ HTML-- website structure
 CSS-- website styling
 
 to protect the readability and maintainability of your HTML file, you can create a CSS file.
+
+link CSS file to HTML file
+<link href="style.css" type="text/css" rel="stylesheet">
+
+1. HTML and CSS are kept in separate files in order to keep code maintainable and readable, as well as keep structure separate from styling.
+
+2. The <style> element allows you to write CSS code within an HTML file.
+
+3. A CSS stylesheet can be linked to an HTML file using the <link> element, which requires three attributes:
+
+href - set equal to the path of the CSS file.
+type - set equal to text/css.
+rel - set equal to stylesheet.
